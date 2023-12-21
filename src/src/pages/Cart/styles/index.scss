@@ -1,0 +1,26 @@
+.cart_cardWrapper {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .addIcon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 37%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    rotate: 45deg;
+  }
+}
